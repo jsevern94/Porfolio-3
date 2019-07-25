@@ -8,6 +8,14 @@ $(function () {
         console.log("click");
         $(window).scrollTop($('#section2').offset().top)
         $("#start-nav").attr("id", "side-nav");
+        $("body").removeClass("overflow-hidden")
+        $(".feature1").addClass("puff-in-center1");
+        $(".feature1").removeClass("invisible")
+        $(".feature2").addClass("puff-in-center2");
+        $(".feature2").removeClass("invisible")
+        $(".feature3").addClass("puff-in-center3");
+        $(".feature3").removeClass("invisible")
+        
     });
 });
 

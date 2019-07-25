@@ -8,26 +8,30 @@
     <title>Jonah Severn</title>
     <link rel="stylesheet" type="text/css" href="assets/css/tailwind.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Prata|Walter+Turncoat&display=swap"
+        rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="assets/javascript/isInViewport.js"></script>
     <script src="assets/javascript/app.js"></script>
 </head>
 
-<body class="bg-cover bg-center bg-fixed md:overflow-hidden" style="background-image: url(assets/images/background4.jpg); font-family: 'Merriweather', serif;">
+<body class="bg-cover bg-center bg-fixed overflow-hidden lg:overflow-hidden"
+    style="background-image: url(assets/images/background4.jpg);font-family: 'Prata', serif;">
 
     <section id="section1" class="bg-cover bg-center bg-fixed relative h-screen w-screen flex justify-center block"
         style="background-image: url(assets/images/background.jpg)">
 
         <div class="flex flex-col h-screen absolute items-center justify-center text-indigo-800 opacity-75">
-            <div class="text-6xl text-center" style="font-family: 'Jacques Francois Shadow', cursive;">Jonah Severn</div>
-            <div class="text-4xl text-center mt-10 mb-32" style="font-family: 'Prata', serif;">Clean user interfaces built for the technologically inept
+            <div class="text-6xl text-center" style="font-family: 'Jacques Francois Shadow', cursive;">Jonah Severn
+            </div>
+            <div class="text-4xl text-center mt-10 mb-32" style="font-family: 'Prata', serif;">Clean user interfaces
+                built for the technologically inept
             </div>
         </div>
 
-        <div id="scroll-button" class="sm:invisible md:visible cursor-pointer bob absolute inset-x-0 bottom-0 w-full text-center text-3xl opacity-75">
+        <div id="scroll-button"
+            class="cursor-pointer bob absolute inset-x-0 bottom-0 w-full text-center text-3xl opacity-75">
             <svg class="fill-current text-indigo-800 inline-block h-24 w-24" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20">
                 <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z">
@@ -35,10 +39,10 @@
         </div>
     </section>
 
-    <nav id="start-nav" class="text-white text-4xl fixed ml-8 pt-16 top-0 z-20 w-64 h-12 invisible"
-        style="font-family: 'Merriweather', serif;">
+    <nav id="start-nav" class="text-white text-4xl fixed ml-8 pt-8 top-0 z-20 w-64 h-12 hidden lg:block invisible"
+        style="font-family: 'Walter Turncoat', cursive;">
 
-        <p id="nav" class="navbutton block cursor-pointer text-center select-none pulsate-fwd text-5xl">Hover Here</p>
+        <p id="nav" class="navbutton block cursor-pointer text-center select-none pulsate-fwd text-5xl">Hover</p>
 
         <a href="#section2"
             class="navbutton block line-through text-indigo-300 text-center py-16 select-none">Featured</a>
@@ -51,31 +55,100 @@
 
     </nav>
 
-    <section id="section2" class="h-screen w-screen block mt-10 relative">
+    <section id="section2" class="lg:h-screen lg:w-screen block mt-10 relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-6xl">Featured</div>
+            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">Featured</div>
+        </div>
+
+        <div class="pt-20 lg:pt-0 lg:h-screen lg:w-screen flex flex-wrap items-center justify-center">
+            <div class="w-4/5 lg:w-1/5 m-12 feature1 invisible">
+
+                <div class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="assets/images/hello-world.PNG" alt="Hello World Homepage">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Hello World</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
+                            et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-4/5 lg:w-1/5 m-12 feature2 invisible">
+
+                <div class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="assets/images/friend-finder.PNG" alt="Friend Finder Homepage">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Friend Finder 2.0</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
+                            et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-4/5 lg:w-1/5 m-12 feature3 invisible">
+
+                <div class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="assets/images/chatmosphere.PNG" alt="Chatmosphere Homepage">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Chatmosphere</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
+                            et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
 
     </section>
 
-    <section id="section3" class="h-screen w-screen block bg-gray-500 relative">
+    <section id="section3" class="h-screen w-screen block relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-6xl">About Me</div>
+            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">About Me</div>
         </div>
 
     </section>
 
     <section id="section4" class="h-screen w-screen block relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-6xl">Projects</div>
+            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">Projects</div>
         </div>
 
     </section>
 
-    <section id="section5" class="h-screen w-screen block bg-gray-500 relative">
+    <section id="section5" class="h-screen w-screen block relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-6xl">Contact Me</div>
+            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">Contact Me</div>
         </div>
 
     </section>
