@@ -1,0 +1,30 @@
+{
+  "name": "Porfolio-3",
+  "version": "1.0.0",
+  "description": "Brand new take on my portfolio, featuring new technologies I've learned since the last time.",
+  "main": "app.js",
+  "scripts": {
+    "build:css": "postcss app/assets/css/styles.css -o app/assets/css/tailwind.css",
+    "watch": "watch \"npm run build:css\" ./app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsevern94/Porfolio-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsevern94/Porfolio-3/issues"
+  },
+  "homepage": "https://github.com/jsevern94/Porfolio-3#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.17",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.0.5",
+    "watch": "^1.0.2"
+  }
+}
