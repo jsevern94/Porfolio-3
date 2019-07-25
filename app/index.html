@@ -9,25 +9,25 @@
     <link rel="stylesheet" type="text/css" href="assets/css/tailwind.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Prata&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="assets/javascript/isInViewport.js"></script>
     <script src="assets/javascript/app.js"></script>
 </head>
 
-<body class="bg-cover bg-center bg-fixed overflow-hidden" style="background-image: url(assets/images/background3.jpg); font-family: 'Merriweather', serif;">
+<body class="bg-cover bg-center bg-fixed md:overflow-hidden" style="background-image: url(assets/images/background4.jpg); font-family: 'Merriweather', serif;">
 
     <section id="section1" class="bg-cover bg-center bg-fixed relative h-screen w-screen flex justify-center block"
         style="background-image: url(assets/images/background.jpg)">
 
-        <div class="flex flex-col h-screen absolute items-center justify-center text-indigo-800 opacity-75" style="font-family: 'Jacques Francois Shadow', cursive;">
-            <div class="text-6xl text-center">Jonah Severn</div>
-            <div class="text-4xl text-center mt-10 mb-32">Clean user interfaces built for the technologically inept
+        <div class="flex flex-col h-screen absolute items-center justify-center text-indigo-800 opacity-75">
+            <div class="text-6xl text-center" style="font-family: 'Jacques Francois Shadow', cursive;">Jonah Severn</div>
+            <div class="text-4xl text-center mt-10 mb-32" style="font-family: 'Prata', serif;">Clean user interfaces built for the technologically inept
             </div>
         </div>
 
-        <div id="scroll-button" class="cursor-pointer bob absolute inset-x-0 bottom-0 w-full text-center text-3xl opacity-75">
+        <div id="scroll-button" class="sm:invisible md:visible cursor-pointer bob absolute inset-x-0 bottom-0 w-full text-center text-3xl opacity-75">
             <svg class="fill-current text-indigo-800 inline-block h-24 w-24" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20">
                 <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z">
@@ -35,10 +35,10 @@
         </div>
     </section>
 
-    <nav id="start-nav" class="text-white text-3xl fixed ml-8 pt-16 top-0 z-20 w-64 h-12 invisible"
+    <nav id="start-nav" class="text-white text-4xl fixed ml-8 pt-16 top-0 z-20 w-64 h-12 invisible"
         style="font-family: 'Merriweather', serif;">
 
-        <p id="nav" class="navbutton block cursor-pointer text-center select-none pulsate-fwd text-4xl">Hover Here</p>
+        <p id="nav" class="navbutton block cursor-pointer text-center select-none pulsate-fwd text-5xl">Hover Here</p>
 
         <a href="#section2"
             class="navbutton block line-through text-indigo-300 text-center py-16 select-none">Featured</a>
@@ -53,7 +53,7 @@
 
     <section id="section2" class="h-screen w-screen block mt-10 relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-4xl">Featured</div>
+            <div class="text-white text-6xl">Featured</div>
         </div>
 
 
@@ -61,21 +61,21 @@
 
     <section id="section3" class="h-screen w-screen block bg-gray-500 relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-4xl">About Me</div>
+            <div class="text-white text-6xl">About Me</div>
         </div>
 
     </section>
 
     <section id="section4" class="h-screen w-screen block relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-4xl">Projects</div>
+            <div class="text-white text-6xl">Projects</div>
         </div>
 
     </section>
 
     <section id="section5" class="h-screen w-screen block bg-gray-500 relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-4xl">Contact Me</div>
+            <div class="text-white text-6xl">Contact Me</div>
         </div>
 
     </section>
