@@ -17,15 +17,17 @@
 </head>
 
 <body class="bg-cover bg-center bg-fixed overflow-hidden lg:overflow-hidden"
-    style="background-image: url(assets/images/background4.jpg);font-family: 'Prata', serif;">
+    style="background-image: url(assets/images/background.jpg);font-family: 'Prata', serif;">
 
     <section id="section1" class="bg-cover bg-center bg-fixed relative h-screen w-screen flex justify-center block"
-        style="background-image: url(assets/images/background.jpg)">
+        style="background-image: url(assets/images/background5.jpg)">
 
-        <div class="flex flex-col h-screen absolute items-center justify-center text-indigo-800 opacity-75">
-            <div class="text-6xl text-center" style="font-family: 'Jacques Francois Shadow', cursive;">Jonah Severn
+        <div class="flex flex-col h-screen absolute mt-40 md:mt-32 text-indigo-800 opacity-75">
+            <div class="text-3xl md:text-6xl text-center" style="font-family: 'Jacques Francois Shadow', cursive;">Jonah
+                Severn
             </div>
-            <div class="text-4xl text-center mt-10 mb-32" style="font-family: 'Prata', serif;">Clean user interfaces
+            <div class="text-xl md:text-4xl text-center mt-10 mb-32" style="font-family: 'Prata', serif;">Clean user
+                interfaces
                 built for the technologically inept
             </div>
         </div>
@@ -39,17 +41,17 @@
         </div>
     </section>
 
-    <nav id="start-nav" class="text-white text-4xl fixed ml-8 pt-8 top-0 z-20 w-64 h-12 hidden lg:block invisible"
+    <nav id="start-nav" class="text-black text-4xl fixed ml-8 pt-8 top-0 z-20 w-64 h-12 hidden lg:block invisible"
         style="font-family: 'Walter Turncoat', cursive;">
 
         <p id="nav" class="navbutton block cursor-pointer text-center select-none pulsate-fwd text-5xl">Hover</p>
 
-        <a href="#section2"
-            class="navbutton block line-through text-indigo-300 text-center py-16 select-none">Featured</a>
+        <a href="#section2" class="navbutton block line-through text-indigo-300 text-center py-16 select-none">Featured
+            Apps</a>
 
         <a href="#section3" class="navbutton block hover:text-gray-700 text-center py-16 select-none">About Me</a>
 
-        <a href="#section4" class="navbutton block hover:text-gray-700 text-center py-16 select-none">Projects</a>
+        <a href="#section4" class="navbutton block hover:text-gray-700 text-center py-16 select-none">Other Projects</a>
 
         <a href="#section5" class="navbutton block hover:text-gray-700 text-center py-16 select-none">Contact Me</a>
 
@@ -57,72 +59,83 @@
 
     <section id="section2" class="lg:h-screen lg:w-screen block mt-10 relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">Featured</div>
+            <div class="text-black text-3xl md:text-4xl lg:text-6xl"
+                style="font-family: 'Jacques Francois Shadow', cursive;">Featured Apps</div>
         </div>
 
-        <div class="pt-20 lg:pt-0 lg:h-screen lg:w-screen flex flex-wrap items-center justify-center">
-            <div class="w-4/5 lg:w-1/5 m-12 feature1 invisible">
+        <div class="pt-20 lg:pt-0 lg:h-screen lg:w-screen flex flex-wrap items-center justify-center"
+            style="font-family: 'Walter Turncoat', cursive;">
+            <div class="w-4/5 md:w-3/5 lg:w-1/5 m-12 feature1 invisible">
 
-                <div class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                <div
+                    class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
                     <img class="w-full" src="assets/images/hello-world.PNG" alt="Hello World Homepage">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Hello World</div>
                         <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
-                            et perferendis eaque, exercitationem praesentium nihil.
+                            For travelers who want to take a vacation but have no idea where they want to go. Tell us
+                            your ideal temperature, vacation theme and month, and we'll give you suggestions.
                         </p>
                     </div>
                     <div class="px-6 py-4">
                         <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://jsevern94.github.io/Hello-World/" target="_blank">Visit the
+                                page</a></span>
                         <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
-                        <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://github.com/jsevern94/Hello-World" target="_blank">Check out the
+                                code</a></span>
                     </div>
                 </div>
 
             </div>
-            <div class="w-4/5 lg:w-1/5 m-12 feature2 invisible">
+            <div class="w-4/5 md:w-3/5 lg:w-1/5 m-12 feature2 invisible">
 
-                <div class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                <div
+                    class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
                     <img class="w-full" src="assets/images/friend-finder.PNG" alt="Friend Finder Homepage">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Friend Finder 2.0</div>
                         <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
-                            et perferendis eaque, exercitationem praesentium nihil.
+                            If you're lonely and need a friend, answer 10 questions and we'll match you with the person
+                            most like you from our database.
                         </p>
                     </div>
                     <div class="px-6 py-4">
                         <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://morning-reef-26851.herokuapp.com/" target="_blank">Visit the
+                                page</a></span>
                         <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
-                        <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://github.com/jsevern94/FriendFinder" target="_blank">Check out the
+                                code</a></span>
                     </div>
                 </div>
 
             </div>
-            <div class="w-4/5 lg:w-1/5 m-12 feature3 invisible">
+            <div class="w-4/5 md:w-3/5 lg:w-1/5 m-12 feature3 invisible">
 
-                <div class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                <div
+                    class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
                     <img class="w-full" src="assets/images/chatmosphere.PNG" alt="Chatmosphere Homepage">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Chatmosphere</div>
                         <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
-                            et perferendis eaque, exercitationem praesentium nihil.
+                            Chat with friends on a platform that isn't being monitored by billionaires or corporations.
+                            Random chat feature coming soon!
                         </p>
                     </div>
                     <div class="px-6 py-4">
                         <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://polar-spire-67758.herokuapp.com/" target="_blank">Visit the
+                                page</a></span>
                         <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
-                        <span
-                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://github.com/ziakeb/project_chatmosphere" target="_blank">Check out the
+                                code</a></span>
                     </div>
                 </div>
 
@@ -132,23 +145,163 @@
 
     </section>
 
-    <section id="section3" class="h-screen w-screen block relative">
+    <section id="section3" class="lg:h-screen lg:w-screen block relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">About Me</div>
+            <div class="text-black text-3xl md:text-4xl lg:text-6xl"
+                style="font-family: 'Jacques Francois Shadow', cursive;">About Me</div>
+        </div>
+
+        <div class="pt-24 lg:pt-0 lg:h-screen lg:w-screen flex items-center justify-center">
+            <div class="w-5/6 lg:w-7/12 text-white text-l lg:text-2xl rounded-lg px-5 py-3 md:px-10 md:py-10 bg-gray-900 opacity-75"
+                style="font-family: 'Walter Turncoat', cursive;">
+                <p class="opacity-100">To date, I have worked in various industries from service, hospitality, and
+                    tourism, to customer
+                    support,
+                    sales, and online marketing. I have background in html, css, and javascript (and related frameworks)
+                    as
+                    well
+                    as several database management systems and other server side technologies. I frequently concoct
+                    business
+                    ideas and I am in the process of implementing many of them with the technological skills I have
+                    under my
+                    belt.
+                </p>
+                <br>
+                <p class="opacity-100">
+                    In my free time, I like to read, compose and play music, hike, and exercise. My interests range
+                    from geography, culture, and science, to psychology, philosophy, and even spirituality. I'm very
+                    social,
+                    and
+                    love to meet new people, especially when games or lively discussion are involved. I also enjoy
+                    traveling
+                    and
+                    have spent several years living abroad. I have visited 16 countries in Europe and I plan to spend
+                    some
+                    time
+                    in Asia and Oceania next.
+                </p>
+                <br>
+                <p class="opacity-100">
+                    To get in touch with me, find my contact details by clicking the "Contact" link or scrolling to the
+                    bottom
+                    of the page.
+                </p>
+            </div>
         </div>
 
     </section>
 
     <section id="section4" class="h-screen w-screen block relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">Projects</div>
+            <div class="text-black text-3xl md:text-4xl lg:text-6xl"
+                style="font-family: 'Jacques Francois Shadow', cursive;">Other Projects</div>
         </div>
+
+
+
+
+
+        <div class="pt-20 lg:pt-0 lg:h-screen lg:w-screen flex flex-wrap items-center justify-center"
+            style="font-family: 'Walter Turncoat', cursive;">
+            <div class="w-4/5 md:w-3/5 lg:w-1/5 m-12 feature1 invisible">
+
+                <div
+                    class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="assets/images/hello-world.PNG" alt="Hello World Homepage">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Hello World</div>
+                        <p class="text-gray-700 text-base">
+                            For travelers who want to take a vacation but have no idea where they want to go. Tell us
+                            your ideal temperature, vacation theme and month, and we'll give you suggestions.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://jsevern94.github.io/Hello-World/" target="_blank">Visit the
+                                page</a></span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://github.com/jsevern94/Hello-World" target="_blank">Check out the
+                                code</a></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-4/5 md:w-3/5 lg:w-1/5 m-12 feature2 invisible">
+
+                <div
+                    class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="assets/images/friend-finder.PNG" alt="Friend Finder Homepage">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Friend Finder 2.0</div>
+                        <p class="text-gray-700 text-base">
+                            If you're lonely and need a friend, answer 10 questions and we'll match you with the person
+                            most like you from our database.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://morning-reef-26851.herokuapp.com/" target="_blank">Visit the
+                                page</a></span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://github.com/jsevern94/FriendFinder" target="_blank">Check out the
+                                code</a></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-4/5 md:w-3/5 lg:w-1/5 m-12 feature3 invisible">
+
+                <div
+                    class="bg-white border-none border-2 hover:border-solid hover:border-blue-300 rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="assets/images/chatmosphere.PNG" alt="Chatmosphere Homepage">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Chatmosphere</div>
+                        <p class="text-gray-700 text-base">
+                            Chat with friends on a platform that isn't being monitored by billionaires or corporations.
+                            Random chat feature coming soon!
+                        </p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://polar-spire-67758.herokuapp.com/" target="_blank">Visit the
+                                page</a></span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><a
+                                href="https://github.com/ziakeb/project_chatmosphere" target="_blank">Check out the
+                                code</a></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
 
     </section>
 
     <section id="section5" class="h-screen w-screen block relative">
         <div class="w-full absolute pt-12 top-0 flex justify-center">
-            <div class="text-white text-3xl md:text-4xl lg:text-6xl" style="font-family: 'Jacques Francois Shadow', cursive;">Contact Me</div>
+            <div class="text-black text-3xl md:text-4xl lg:text-6xl"
+                style="font-family: 'Jacques Francois Shadow', cursive;">Contact Me</div>
+        </div>
+        <div class="pt-32 lg:pt-10 lg:h-screen lg:w-screen flex flex-col items-center text-2xl md:text-3xl lg:text-4xl justify-center"
+            style="font-family: 'Walter Turncoat', cursive;">
+            <div class="my-10">Phone: 360.643.0442</div>
+            <div class="my-10">Email: severnj@spu.edu</div>
+            <div class="my-10">Linkedin:</div>
+            <div class="my-10">Github:</div>
         </div>
 
     </section>
