@@ -22,6 +22,16 @@ $(function () {
 
 $(window).scroll(function () {
 
+    if ($("#section2").is(':in-viewport')) {
+        $("body").removeClass("overflow-hidden")
+        $(".feature1").addClass("puff-in-center1");
+        $(".feature1").removeClass("invisible")
+        $(".feature2").addClass("puff-in-center2");
+        $(".feature2").removeClass("invisible")
+        $(".feature3").addClass("puff-in-center3");
+        $(".feature3").removeClass("invisible")
+    }
+
     if ($("#scroll-button").is(':in-viewport')) {
         $("#side-nav").removeClass("slide-in-blurred-top");
         $("#side-nav").addClass("slide-out-blurred-top");
